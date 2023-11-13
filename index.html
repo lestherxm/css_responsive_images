@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- General | Mobile Style -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Tablet Style -->
+    <link rel="stylesheet" href="./assets/css/tablet.css" media="screen and (min-width: 480px)">
+    <!-- Laptop Style -->
+    <link rel="stylesheet" href="./assets/css/laptop.css" media="screen and (min-width: 768px)">
+    <!-- Desktop Style -->
+    <link rel="stylesheet" href="./assets/css/desktop.css" media="screen and (min-width: 1024px)">
+    <title>CSS Responsive Images | Lesther Xitumul Manuel</title>
+    <meta property="og:title" content="CSS Responsive Images | Lesther Xitumul Manuel">
+    <meta property="og:description" content="Learning how to handle resonsive images with HTML and CSS">
+    <meta name="description" content="Learning how to handle resonsive images with HTML and CSS">
+    <meta property="og:url" content="https://lestherxm.github.io/css_responsive_images/">
+    <link rel="canonical" href="https://lestherxm.github.io/css_responsive_images/">
+    <meta name="keywords" content="Lesther Xitumul, Lesther Xitumul Manuel, Lesther XM, lestherxm, @lestherxm">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://lestherxm.github.io/og_images/url-og-img.jpg">
+</head>
+<body>
+    <main>
+        <picture class="picture-container">
+            <source class="picture-container__img" media="(min-width: 1024px)" srcset="./assets/img/apple-large.jpg">
+            <source class="picture-container__img" media="(min-width: 768px)" srcset="./assets/img/apple-medium.jpg">
+            <img class="picture-container__img" src="./assets/img/apple-small.jpg" alt="Apple Image Small">
+        </picture>
+    </main>
+</body>
+</html>
