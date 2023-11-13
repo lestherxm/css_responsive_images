@@ -23,11 +23,14 @@
 </head>
 <body>
     <main>
-        <picture class="picture-container">
-            <source class="picture-container__img" media="(min-width: 1024px)" srcset="./assets/img/apple-large.jpg">
-            <source class="picture-container__img" media="(min-width: 768px)" srcset="./assets/img/apple-medium.jpg">
-            <img class="picture-container__img" src="./assets/img/apple-small.jpg" alt="Apple Image Small">
-        </picture>
+        <figure>
+            <picture class="picture-container">
+                <source class="picture-container__img" media="(min-width: 1024px)" srcset="./assets/img/apple-large.jpg">
+                <source class="picture-container__img" media="(min-width: 768px)" srcset="./assets/img/apple-medium.jpg">
+                <img class="picture-container__img" src="./assets/img/apple-small.jpg" alt="Apple Image Small">
+            </picture>
+            <figcaption>This is the displayed image.</figcaption>
+        </figure>
     </main>
 </body>
 </html>
